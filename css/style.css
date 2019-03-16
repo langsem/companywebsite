@@ -1,0 +1,77 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.video-background {
+position: absolute;
+width: 100%;
+min-height: 100vh;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.buttons {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  color: white;
+}
+
+.buttons .Btn {
+font-size: 1rem;
+margin: 8px 10px;
+}
+
+.buttons .Btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.425);
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    color: white;
+  }
+  
+  .buttons .Btn {
+  border-width: medium;
+  border-radius: 0.5;
+  font-size: 1.1rem;
+  margin: 10px 20px;
+  }
+  
+  .buttons .Btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.425);
+  }
+}
+
+
+/*============ BOOTSTRAP REFS:
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
